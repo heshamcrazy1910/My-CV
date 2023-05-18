@@ -28,7 +28,7 @@ header.sticky{
 }
 
 header img {
-    width: 80px;
+    width: 60px;
     height: auto;
     max-width: 100%;
     max-height: 100%;
@@ -60,12 +60,6 @@ header img {
     background-color: #007bee;
 }
 
-#darkMode-icon{
-    font-size: 25px;
-    color: #ffffff;
-    cursor: pointer;
-    
-}
 
 section {
     min-height: 100vh;
@@ -100,6 +94,7 @@ body {
 }
 
 h1 {
+  margin-top: 50px;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
@@ -242,8 +237,7 @@ header{
 .navigation a{
   margin: 7 px;
   font-size: 1.0em;
-  padding-left: 10px;
-  padding-bottom: 5px;
+  padding-left: 0px;
 }
  }
 
