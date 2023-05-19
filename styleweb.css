@@ -164,6 +164,7 @@ img {
 }
 
 .card_content {
+  height: 100%;
   padding: 0rem;
   margin: 0px;
   background: linear-gradient(to bottom left, #0098fd 40%, #5800FF 100%);
