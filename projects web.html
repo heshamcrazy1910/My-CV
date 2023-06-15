@@ -1,78 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="styleweb.css">
-    <style> html,body {
-      width: 100%;
-      overflow-x: hidden;
-  }
-  </style>
-    <title>Project web</title>
-</head>
-
-<body>
-
-    <header>
-        <img src="images/vector high res.png" alt="Logo">
-        <nav class="navigation">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Latest Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class = "main-container">
             <a href="index.html">Back to Home</a>
-        </nav>
-    </header>
+            <h2>Latest Project</h2>
+            <div class = "filter-container">
+                <div class = "category-head">
+                    <ul>
+                        <div class = "category-title active" id = "all">
+                            <li>All</li>
+                        </div>
+                        <div class = "category-title" id = "culture">
+                            <li>Website Designs</li>
+                        </div>
+                        <div class = "category-title" id = "politics">
+                            <li>Navigation Bars</li>
+                        </div>
+                        <div class = "category-title" id = "finance">
+                            <li>Card Designs</li>
+                        </div>
+                        <div class = "category-title" id = "business">
+                            <li>Login Forms</li>
+                        </div>
+                        <div class = "category-title" id = "sports">
+                            <li>Animation </li>
+                        </div>
+                    </ul>
+                </div>
 
-<div class="main">
-  <h1>Latest Project web</h1>
-  <ul class="cards">
-    <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><img src="images/ashtaghil.jpg"></div>
-        <div class="card_content">
-          <h2 class="card_title">ashtaghil</h2>
-          <p class="card_text">A platform that aims to publish and provide jobs</p>
-          <p class="card_text">" full Stack "</p>
-          <a href="http://asht4l.eb2a.com/" class="btn">open site</a>
-        </div>
-      </div>
-    </li>
-       <li class="cards_item">
-        <div class="card">
-          <div class="card_image"><img src="images/Admin-Dashboard.jpg"></div>
-          <div class="card_content">
-            <h2 class="card_title">Admin Dashboard</h2>
-            <p class="card_text">Post control page on the site</p>
-            <p class="card_text">" html,css,js "</p>
-            <a href="https://heshamcrazy1910.github.io/Admin-Dashboard/" class="btn">open site</a>
-          </div>
-        </div>
-      </li>
-  <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><img src="images/log-v1.png"></div>
-        <div class="card_content">
-          <h2 class="card_title">Login & Registrationt</h2>
-          <p class="card_text">Login and Registrationt page</p>
-          <p class="card_text">" html,css,js "</p>
-          <a href="https://heshamcrazy1910.github.io/Login-and-Registration/" class="btn">open site</a>
-        </div>
-      </div>
-    </li>
-<li class="cards_item">
-      <div class="card">
-        <div class="card_image"><img src="images/nav-soc.jpg"></div>
-        <div class="card_content">
-          <h2 class="card_title">social menu</h2>
-          <p class="card_text">social menu To save space on the page</p>
-          <p class="card_text">" html,css,js "</p>
-          <a href="https://heshamcrazy1910.github.io/social-menu/" class="btn">open site</a>
-        </div>
-      </div>
-    </li>
+                <div class = "posts-collect">
+                    <div class = "posts-main-container">
+                        <!-- single post -->
+                        <div class = "all business">
+                            <div class = "post-img">
+                                <img src = "images/log-v1.png" alt = "post">
+                            </div>
+                            <div class = "post-content">
+                                <div class = "post-content-top">
+                                    <span>Html , Css , Js</span>
+                                </div>
+                                <h2>Login & Registrationt</h2>
+                                <p>Login and Registrationt page</p>
+                            </div>
+                            <a href="https://heshamcrazy1910.github.io/Login-and-Registration/" class = "read-btn">open site</a>
+                        </div>
 
-    </li>
+
+                        <!-- end of single post -->
+
+
+                        <!-- <div class = "all finance">
+                            <div class = "post-img">
+                                <img src = "images/" alt = "post">
+                            </div>
+                            <div class = "post-content">
+                                <div class = "post-content-top">
+                                    <span>full</span>
+                                </div>
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae aspernatur possimus illum, repellat ad quasi earum, illo voluptatibus minima fugiat saepe magni corporis vero eius accusantium quidem, consectetur nesciunt!</p>
+                            </div>
+                            <a href="" class = "read-btn">open site</a>
+                        </div> -->
+
+
+                        <!-- end of single post -->
+
+
+                        <div class = "all culture">
+                            <div class = "post-img">
+                                <img src = "images/ashtaghil.jpg" alt = "post">
+                            </div>
+                            <div class = "post-content">
+                                <div class = "post-content-top">
+                                    <span>full Stack</span>
+                                </div>
+                                <h2>ashtaghil</h2>
+                                <p>A platform that aims to publish and provide jobs in Egypt</p>
+                            </div>
+                            <a href="http://asht4l.eb2a.com/" class = "read-btn">open site</a>
+                        </div>
+
+                        <!-- end of single post -->
+
+                        <div class = "all culture">
+                            <div class = "post-img">
+                                <img src = "images/Admin-Dashboard.jpg" alt = "post">
+                            </div>
+                            <div class = "post-content">
+                                <div class = "post-content-top">
+                                    <span>Html , Css , Js</span>
+                                </div>
+                                <h2>Admin Dashboard</h2>
+                                <p>Post control page on the site</p>
+                            </div>
+                            <a href="https://heshamcrazy1910.github.io/Admin-Dashboard/" class = "read-btn">open site</a>
+                        </div>
+
+                        <!-- single post -->
+
+                        <!-- <div class = "all politics">
+                            <div class = "post-img">
+                                <img src = "images/" alt = "post">
+                            </div>
+                            <div class = "post-content">
+                                <div class = "post-content-top">
+                                    <span>full</span>
+                                </div>
+                                <h2>Lorem ipsum dolor sit amet</h2>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus recusandae aspernatur possimus illum, repellat ad quasi earum, illo voluptatibus minima fugiat saepe magni corporis vero eius accusantium quidem, consectetur nesciunt!</p>
+                            </div>
+                            <a href="" class = "read-btn">open site</a>
+                        </div> -->
+
+
+
+                        <!-- end of single post -->
+
+
+                        <div class = "all sports">
+                            <div class = "post-img">
+                                <img src = "images/nav-soc.jpg" alt = "post">
+                            </div>
+                            <div class = "post-content">
+                                <div class = "post-content-top">
+                                    <span>Html , Css , Js</span>
+                                </div>
+                                <h2>social menu</h2>
+                                <p>social menu To save space on the page</p>
+                            </div>
+                            <a href="https://heshamcrazy1910.github.io/social-menu/" class = "read-btn">open site</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- JS file -->
+        <script src = "script.js"></script>
+    </body>
+</html>
