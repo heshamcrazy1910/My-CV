@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+img{width: 100%}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+    background-image: url();
+}
+
+
+a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+/****************/
+.main-container{
+    width: 90vw;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+.main-container > h2{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 32px;
+}
+.main-container > p{
+    font-weight: 300;
+    padding: 10px 0;
+    opacity: 0.7;
+    text-align: center;
+}
+.category-head{
+    margin: 30px 0;
+}
+.category-head ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.category-title{
+    color: #fff;
+    background-color: #007bff;
+    letter-spacing: .1rem;
+    font-size: 1.1em;
+    font-weight: 400;
+    display: inline-block;
+    padding: 4px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    border: .2rem solid transparent;
+    margin-bottom: 15px;
+    transition: 0.5s ease;
+    margin-left: 10px;
+}
+.category-title:hover{
+    opacity: 0.7;
+    background-color: #222;
+}
+.category-title li{
+    padding: 0 10px;
+}
+.category-title span{
+    color: #222;
+}
+
+/** single post **/
+.posts-main-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+.posts-main-container > div{
+    box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 0.64);
+}
+.post-img{
+    position: relative;
+}
+
+.post-content{
+    padding: 25px;
+}
+.post-content-top{
+    background: #007bee;
+    color: #fff;
+    opacity: 0.8;
+    padding: 5px 0 5px 15px;
+    margin-bottom: -5px;
+    margin-top: -23px;
+}
+.post-content-top span{
+    padding-right: 20px;
+}
+.post-content-top .fa-comment, .post-content-top .fa-calendar{
+    padding-right: 5px;
+}
+.post-content h2{
+    font-size: 22px;
+    padding: 12px 0;
+    font-weight: 400;
+}
+.post-content p{
+    color: #000;
+    font-size: 17px;
+    line-height: 1.8;
+}
+.read-btn{
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    display: inline-block;
+    padding: 5px;
+    letter-spacing: 1px;
+    border-radius: 11px;
+    border: .4rem solid transparent;
+    margin-bottom: 15px;
+    transition: 0.5s ease;
+    margin-left: 26px;
+
+}
+
+.read-btn:hover{
+    background: #007bff;
+}
+
+
+
+/***************/
+@media(max-width: 1170px){
+    .posts-main-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width: 768px){
+    .posts-main-container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/***********/
+
+.active{
+    background: #000;
+}
