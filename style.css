@@ -465,7 +465,7 @@ footer .logo h2 {
 }
 
 .service-card:hover {
-    transform: translateY(-10px);
+      transform: scale(1.1);
 }
 
 /* اخفاء ايقون المينيو */
