@@ -13,7 +13,7 @@
 
         
 // text
-consoleText(['full stack developer','graphic design','youtuber'], 'text',['#3a6cf4','#5800FF','#F00']);
+consoleText(['full stack web developer','Application developer','graphic design','youtuber'], 'text',['#3a6cf4','#85A389','#5800FF','#F00']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
@@ -63,3 +63,5 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
+
+// filter
