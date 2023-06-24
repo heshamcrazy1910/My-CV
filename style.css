@@ -154,6 +154,7 @@ section {
 
 .social-icons a i:hover {
     color: #007bff;
+    transform: scale(1.2);
 }
 
 /* lets throger */
@@ -364,6 +365,7 @@ footer .logo h2 {
 
 .social-icons a:hover {
     color: #ccc;
+    transform: scale(1.2);
 }
 
 /* services */
