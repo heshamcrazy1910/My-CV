@@ -786,6 +786,7 @@ transform: scale(1.1);
         cursor: pointer;
         visibility: visible;
         transition: 0.5s;
+        margin-right: 5px;
     }
 
     .nav-menu-btn:hover {
