@@ -839,7 +839,6 @@ transform: scale(1.1);
 
     .navigation .nav-items {
         position: relative;
-        background:url(images/navv.jpg) ;
         background-size: cover;
         width: 400px;
         max-width: 400px;
