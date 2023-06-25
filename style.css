@@ -774,7 +774,7 @@ transform: scale(1.1);
     .nav-menu-btn {
         display: block;
         color: #fff;
-        font-size: 2.3em;
+        font-size: 2.0em;
         cursor: pointer;
         visibility: visible;
         transition: 0.5s;
