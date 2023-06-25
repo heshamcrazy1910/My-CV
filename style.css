@@ -470,9 +470,10 @@ padding-left: 5px;
     margin-top: 97px;
     text-decoration: none;
     padding: 13px 0;
+
   }
   .full{
-    background-color:rgb(58, 108, 244);
+    background-color:#000;
     letter-spacing: .1rem;
     font-size: 1.1em;
     font-weight: 600;
