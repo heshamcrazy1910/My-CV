@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
 }
 
 
@@ -417,19 +416,22 @@ footer .logo h2 {
 
 /* services */
 
+.full-icon i{
+font-size: 35px;
+display:inline-block;
+padding-left: 5px;
+}
 
 /*  Latest Project */
 
 .service-card a {
     color: #000;
     text-decoration: none;
-
 }
 
 .service-card a:hover {
     transform: scale(1.2);
     transition: 0.5s ease;
-    color: #3a6cf4
 }
 
 .youtube-card i:hover {
@@ -451,15 +453,42 @@ footer .logo h2 {
     transition: 0.5s ease;
     color: #5800FF;
 }
+
+.full-btn{
+    margin-top: -20px;
+    text-decoration: none;
+    padding: 13px 0;
+  }
+
+.full-btn2{
+    margin-top: 11px;
+    text-decoration: none;
+    padding: 13px 0;
+  }
+
+  .full-btn3{
+    margin-top: 97px;
+    text-decoration: none;
+    padding: 13px 0;
+  }
+  .full{
+    background-color:rgb(58, 108, 244);
+    letter-spacing: .1rem;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 1px;
+    border-radius: 9px;
+    transition: 0.5s ease;
+    padding: 8px 20px 8px 20px;
+  }
+
 /* Latest Project */
 
 
 /* button Click to contact me */
 
-.btnn {
-    color: #fff;
-    text-decoration: none;
-    letter-spacing: .1rem;
+.tax-Contact {
     font-size: 1.1em;
     font-weight: 600;
     display: inline-block;
@@ -469,6 +498,10 @@ footer .logo h2 {
     border: .2rem solid transparent;
     margin-bottom: 10px;
     transition: 0.5s ease;
+}
+
+.service-card .tax-Contact:hover{
+    color: #3a6cf4;
 }
 
 .service-card:hover {
