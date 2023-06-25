@@ -425,7 +425,7 @@ padding-left: 5px;
 /*  Latest Project */
 
 .service-card a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -494,15 +494,14 @@ padding-left: 5px;
     display: inline-block;
     padding: 5px;
     letter-spacing: 1px;
-    border-radius: 5px;
+    border-radius: 9px;
     border: .2rem solid transparent;
     margin-bottom: 10px;
     transition: 0.5s ease;
+    background-color: #000;
 }
 
-.service-card .tax-Contact:hover{
-    color: #3a6cf4;
-}
+
 
 .service-card:hover {
     transform: scale(1.1);
