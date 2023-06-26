@@ -839,6 +839,7 @@ transform: scale(1.1);
 
     .navigation .nav-items {
         position: relative;
+         background-color: #eeeeee;
         background-size: cover;
         width: 400px;
         max-width: 400px;
