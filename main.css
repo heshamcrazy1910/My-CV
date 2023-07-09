@@ -81,6 +81,8 @@ body{
     margin-bottom: 15px;
     transition: 0.5s ease;
     margin-left: 10px;
+    cursor: pointer;
+
 }
 .category-title:hover{
     opacity: 0.7;
