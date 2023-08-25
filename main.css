@@ -144,9 +144,10 @@ body{
 
 .btns{
     margin-bottom: 13px;
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 20px;
 }
 
 .read-btn{
