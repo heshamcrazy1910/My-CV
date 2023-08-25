@@ -6,7 +6,6 @@
     margin: 0;
     text-decoration: none;
     scroll-behavior: smooth;
-    -webkit-tap-highlight-color: transparent;
 }
 img{width: 100%}
 
@@ -142,20 +141,28 @@ body{
     font-size: 17px;
     line-height: 1.8;
 }
+
+.btns{
+    margin-bottom: 13px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .read-btn{
     color: #fff;
     background-color: #000;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 400;
-    display: inline-block;
     padding: 5px;
     letter-spacing: 1px;
     border-radius: 11px;
     border: .4rem solid transparent;
-    margin-bottom: 15px;
-    margin-left: 26px;
+    margin-right: 10px;
     transition: 0.5s ease;
+    margin-top: 10px;
+
 }
 .read-btn:hover{
     background: #007bff;
@@ -168,20 +175,40 @@ body{
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 400;
-    display: inline-block;
-    float: right;
-    margin-right: 20px;
     padding: 5px;
     letter-spacing: 1px;
     border-radius: 11px;
+    margin-right: 10px;
     border: .4rem solid transparent;
-    margin-bottom: 15px;
+    margin-top: 10px;
+
     transition: 0.5s ease;
 }
 
 .watch-btn:hover{
     background: rgb(248, 1, 1);
 }
+
+.dwn-btn{
+    background-color: rgb(111, 33, 214);
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 5px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    border-radius: 11px;
+    border: .4rem solid transparent;
+    transition: 0.5s ease;
+}
+
+.dwn-btn:hover{
+    background: rgb(154, 78, 255);
+}
+
+
+
 
 /***************/
 @media(max-width: 1170px){
@@ -210,22 +237,20 @@ body{
     opacity: 0;
     transition: all 0.3s ease;
   }
-  
   .scrollToTop-btn.active{
     right: 20px;
     opacity: 1;
     pointer-events: auto;
   }
 
-  
     .posts-main-container{
         grid-template-columns: 1fr;
     }
 }
-
 
 /***********/
 
 .active{
     background: #000;
 }
+
