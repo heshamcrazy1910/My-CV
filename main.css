@@ -135,7 +135,7 @@ body{
 .post-content h2{
     font-size: 22px;
     padding: 12px 0;
-    font-weight: 400;
+    font-weight: bold;
 }
 .post-content p{
     color: #000;
